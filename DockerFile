@@ -1,0 +1,17 @@
+#create a base version from node:6-alpine
+
+# set environment variable PORT=3000 so that the application runs on port 3000
+
+# EXPOSE PORT 3000 5000
+
+# Create a directory /usr/src/app
+
+#set the work dir
+
+# copy your package.json file
+
+# run npm install and npm cache clean
+
+# copy your source code to /usr/src/app
+
+# start the application using npm run app
