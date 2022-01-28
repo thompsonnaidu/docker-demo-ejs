@@ -14,6 +14,9 @@
     "ejs": "latest",
     "express-partials": "latest"
   },
+  "scripts": {
+      "app":"node app.js"
+  },
   "engines": {
     "node": "0.8.x",
     "npm": "1.1.x"

@@ -8,8 +8,11 @@ var routes = require('./routes/index.js');
 app.configure(function(){
 
 	app.use(partials());
-	app.engine('html', require('ejs').renderFile); //renders .ejs as html
 	
+	// app.set('view engine', 'ejs');
+	app.engine('html', require('ejs').renderFile); //renders .ejs as html
+
+
 	app.set('views', __dirname + '/views');
 	app.use(express.static(__dirname + '/public'));
 	
